@@ -1,0 +1,70 @@
+.loginSpace{
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    vertical-align: middle;
+    margin-top: 25vh;
+    border-color: black;
+    border:2px;
+}
+
+.credencialSpace{
+    width: 100%;
+    height: 33%;
+}
+
+.userInput{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.userInput label{
+    margin: 0;
+    display: inline-block;
+    margin-left: 20%;
+    position: absolute;
+    top:25%;
+    font-size: 3vw;
+}
+
+.userInput input{
+    margin-left: 60%;
+    position: absolute;
+    top:25%;
+    background-color: rgb(235, 235, 235);
+    border:none;
+    height: 50%;
+    width:30%;
+}
+
+.userInput button{
+    margin: auto;
+    position: absolute;
+    background-color: #620D4F;
+    border:none;
+    height: 70%;
+    width: 30%;
+    left:35%;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2vw;
+}
+
+.userInput button:hover{
+    background-color: rgb(150, 150, 150);
+}
+
+.mensajeE{
+    width: 100%;
+    height: 30%;
+}
+
+.mensajeE p{
+    color: black;
+    font-size: medium;
+    margin:0;
+    margin-left: 25%;
+    font-size: 3vw;
+}
