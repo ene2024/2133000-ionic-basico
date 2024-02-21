@@ -3,7 +3,7 @@ function login() {
     let mensajeE = document.querySelector('.mensajeE');
     let userinput = document.createElement("p");
     mensajeE.removeChild(mensajeE.firstChild);
-    userinput.textContent=("Inicio Sesion: " + Usuario.value);
+    userinput.textContent=("Inicio Sesionsds: " + Usuario.value);
     mensajeE.appendChild(userinput);
     console.log("Inicio Sesion: ", Usuario.value);
     document.getElementById("Usuario").value = "";
