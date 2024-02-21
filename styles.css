@@ -68,3 +68,13 @@
     margin-left: 25%;
     font-size: 3vw;
 }
+
+.Resumen{
+    width: 100vw;
+    height: 50vh;
+    background-color: #ffffff;
+}
+
+.Resumen p{
+    display: inline-block;
+}
