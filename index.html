@@ -17,16 +17,21 @@
         </ion-toolbar>
       </ion-header>
       <ion-content class="ion-padding">
-        <ion-item>
-            <ion-input label="Producto" placeholder="ID" ID="Producto"></ion-input>
-          </ion-item>
           <ion-item>
-            <ion-input label="Precio" type="number" placeholder="$MXN" ID="Precio"></ion-input>
+            <ion-input label="Producto" placeholder="ID" ID="Producto" class="inputProducto"></ion-input>
           </ion-item>
-          <ion-button onclick="additem()">Guardar</ion-button>
+          <br><br>
+          <ion-item>
+            <ion-input label="Precio" type="number" placeholder="$MXN" ID="Precio" class="inputProducto"></ion-input>
+          </ion-item>
+          <ion-button onclick="additem()" class="boton">Agregar</ion-button>
 
-          <div class = "Resumen">
-            
+          <div class = "carritoE">
+            <h1>Recibo de Compra:</h1>
+
+          </div>
+          <div class="total">
+            <h1 ID="total">Total: $0.00 MXN</h1>
           </div>
       </ion-content>
 

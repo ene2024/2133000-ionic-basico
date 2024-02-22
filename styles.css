@@ -1,80 +1,75 @@
-.loginSpace{
-    width: 50vw;
-    height: 50vh;
-    margin: auto;
-    vertical-align: middle;
-    margin-top: 25vh;
-    border-color: black;
-    border:2px;
-}
-
-.credencialSpace{
-    width: 100%;
-    height: 33%;
-}
-
-.userInput{
-    width: 100%;
-    height: 50%;
-    position: relative;
-}
-
-.userInput label{
-    margin: 0;
+.carritoE{
+    width: 100vw;
+    height: auto;
     display: inline-block;
-    margin-left: 20%;
-    position: absolute;
-    top:25%;
+    border-bottom: 1px solid black;
+    margin-bottom: 15vh;
+}
+
+.carritoE p{
+    display: inline-block;
+}
+
+.productoE{
+    height: 10vh;
+    width: 100vw;
+    background-color: transparent;
+    margin: 0;
+    display: flex;
+    border-top: 1px solid black;
+}
+
+.productoDesc{
+    height: 100%;
+    width: 80%;
+    background-color: transparent;
+    margin: 0;
+}
+
+.productoDesc p{
+    font-size: 4vh;
+}
+
+
+.productoPrec{
+    background-color: transparent;
+    flex:1;
+    margin: 0;
+}
+
+.productoPrec p{
+    font-size: 4vh;
+}
+
+.total h1{
     font-size: 3vw;
+    text-align: right;
+    margin-right: 5vw;
 }
 
-.userInput input{
-    margin-left: 60%;
-    position: absolute;
-    top:25%;
-    background-color: rgb(235, 235, 235);
-    border:none;
-    height: 50%;
-    width:30%;
+.total{
+    width: 100vw;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgba(227, 227, 227, 0.561);
+    display: block;
+    position: fixed;
+    bottom: 0;
+
 }
 
-.userInput button{
-    margin: auto;
-    position: absolute;
-    background-color: #620D4F;
-    border:none;
-    height: 70%;
-    width: 30%;
-    left:35%;
+.inputProducto{
+    font-size: 2vw;
+}
+
+.boton{
+    margin-top: 5vh;
+    margin-left: 40%;
+    height: 10vh;
+    width: 20vw;
     color: white;
     border-radius: 10px;
     cursor: pointer;
     font-size: 2vw;
-}
 
-.userInput button:hover{
-    background-color: rgb(150, 150, 150);
-}
-
-.mensajeE{
-    width: 100%;
-    height: 30%;
-}
-
-.mensajeE p{
-    color: black;
-    font-size: medium;
-    margin:0;
-    margin-left: 25%;
-    font-size: 3vw;
-}
-
-.Resumen{
-    width: 100vw;
-    height: 50vh;
-    background-color: #ffffff;
-}
-
-.Resumen p{
-    display: inline-block;
 }
