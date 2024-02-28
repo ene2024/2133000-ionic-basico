@@ -1,4 +1,4 @@
-.carritoE{
+/*.carritoE{
     width: 100vw;
     height: auto;
     display: inline-block;
@@ -72,4 +72,21 @@
     cursor: pointer;
     font-size: 2vw;
 
+}*/
+
+ion-col{
+    border: solid 1px black;
+    background-color: azure;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h5{
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }

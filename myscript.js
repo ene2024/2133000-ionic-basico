@@ -1,4 +1,4 @@
-var total=0;
+/*var total=0;
 
 function additem(){
     var Producto = document.getElementById("Producto");
@@ -34,4 +34,4 @@ function additem(){
         totalcarrito.textContent=("Total: $" + total + " MXN");
     }
     
-}
+}*/
